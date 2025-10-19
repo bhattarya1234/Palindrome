@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(0, 12, 24);
+    color:blueviolet;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:25vh;
+width: 40%;
+padding: 6em;
+border-radius: 12px;
+background: rgb(255, 255, 255);
+    gap: 2vh;
+border-bottom:10px solid rgb(89, 42, 159);
+backdrop-filter: blur(1px);
+}
+#text-input{
+    display: flex;
+justify-content: center;
+align-items: center;
+    padding: 2vh;
+    border: none;
+outline: none;
+font-size: large;
+border-bottom: 3px solid blue;
+letter-spacing: .2em;
+    
+}
+#check-btn{
+    padding: 2vh;
+    box-shadow: 0 0 10px paleturquoise,
+    0 0 20px paleturquoise;
+    border: none;
+    border-radius: 8px;
+transition: .2s ease-in-out;
+background: paleturquoise;
+padding: 2vh;
+
+}
+#check-btn:hover{
+    transform: scale(1.1);
+}
+img{
+    width: 20%;
+    height: 15vh;
+margin-bottom: 3vh;
+}
+#alt{
+    margin-top: 3vh;
+    background: rgb(0, 71, 27);
+    color: #e4e4e4;
+    border-radius: 8px;
+    padding: 3vh;
+    width: 35%;
+}
+label{
+    color: black;
+}
+h1{
+    font-weight: 800;
+    margin-bottom: 5vh;
+}
